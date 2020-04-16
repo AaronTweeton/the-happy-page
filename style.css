@@ -1,6 +1,11 @@
 body {
-    background-image: url('images/backgrnd.jpg');
-    color:#ffff00;
+    background-image: url('images/backgrnd.gif');
+    color:white;
+    font-size:100%;
+    font-size:.9rem;
+}
+a {
+    color:yellow;
 }
 
 header,
@@ -12,25 +17,43 @@ nav {
 }
 
 header {
+    font-size: .8rem;
     text-align: center;
+    font-style: italic;
 }
 
-.drawing {
-    float:left;
-    margin: 7px 4px;
+main {
+    display:grid;
+    grid-template-columns: auto 1fr;
+    grid-gap:1rem;
 }
 
+h2 {
+    font-size: 1rem;
+}
 nav h3 {
     text-align: center;
 }
 
-nav ul {
+nav ul,
+aside ul {
     list-style: none;
     padding:0;
 }
 
-nav li img {
+nav dl img {
     vertical-align: middle;
+    padding: 5px 5px 5px 0;
+}
+
+nav dt {
+    font-size: 1rem;
+}
+
+nav dd {
+    margin: 0 0 .5rem 0;
+    font-size: .8rem;
+    font-style: italic;
 }
 
 footer {
