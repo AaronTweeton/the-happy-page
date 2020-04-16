@@ -1,0 +1,38 @@
+body {
+    background-image: url('images/backgrnd.jpg');
+    color:#ffff00;
+}
+
+header,
+main,
+aside,
+nav {
+    border-bottom: 5px double hsla(180, 0%, 50%, .5);
+    padding: 1rem 0;
+}
+
+header {
+    text-align: center;
+}
+
+.drawing {
+    float:left;
+    margin: 7px 4px;
+}
+
+nav h3 {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding:0;
+}
+
+nav li img {
+    vertical-align: middle;
+}
+
+footer {
+    padding: 1rem 0;
+}
